@@ -94,8 +94,8 @@
         });
     
     s4d.client.on('messageCreate', async (s4dmessage) => {
-      if ((s4dmessage.content) == '!ping') {
-        s4dmessage.channel.send({content:String('pong!')});
+      if ((s4dmessage.content) == 'hii') {
+        s4dmessage.channel.send({content:String('Walead chawlan nai mro')});
       }
     
     });
