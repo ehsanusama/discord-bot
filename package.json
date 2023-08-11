@@ -27,7 +27,8 @@
                     "moment": "latest",
 
                     "process": "^0.11.10"
-
+                    
+                    "ms": "^2.1.3"
           },
 
           "devDependencies": {
