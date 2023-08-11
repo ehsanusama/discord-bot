@@ -144,6 +144,6 @@
         });
     
     s4d.client.on('messageCreate', async (s4dmessage) => {
-      if ((s4dmessage.content) !='') {
+      if ((s4dmessage.content) =='hii') {
         s4dmessage.channel.send({content:String("Wellcome to The Usama's Test Bot")});
       }
