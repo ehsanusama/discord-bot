@@ -94,7 +94,7 @@
   });
 
   s4d.client.on('messageCreate', async (s4dmessage) => {
-    if ((s4dmessage.content) != null) {
+    if ((s4dmessage.content) == "hii") {
       s4dmessage.channel.send({ content: String('Wellcom To Usama Discord Test BOt!') });
     }
 
